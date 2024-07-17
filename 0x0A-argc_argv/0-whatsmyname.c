@@ -1,0 +1,17 @@
+#include "main.h"
+#include <stdio.h>
+
+/**
+ * main - Prints its name
+ * @argc: argument count
+ * @argv: argumnet vector
+ *
+ * Return: Always zero
+ */
+int main(int argc, char *argv[])
+{
+	(void) argc;
+	printf("The name of the program is %s\n", argv[0]);
+
+	return(0);
+}
