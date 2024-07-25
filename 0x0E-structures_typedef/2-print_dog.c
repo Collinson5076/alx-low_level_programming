@@ -3,9 +3,7 @@
 
 /**
  * print_dog - print the variables in struct dog
- * @name: name of dog
- * @age: age of dog
- * @owner: owner of dog
+ * @d: pointer to the dog struct to be printed
  *
  * Return: Always 0 on success
  */
